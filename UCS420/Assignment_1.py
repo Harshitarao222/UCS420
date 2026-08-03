@@ -44,6 +44,7 @@ num3 = int(input("Enter third number: "))
 result = num1+num2+num3
 print(result)
 
+
 for i in range(11):
     print(i)
 
@@ -53,6 +54,7 @@ while i <= 10:
     print(i)
     i += 1
 
+
 for i in range(1,11):
     print(5*i)
 
@@ -61,11 +63,13 @@ n= int(input("enter the value: "))
 for i in range(1,11):
     print(n*i)
 
+
 n= int(input("enter n: "))
 sum=0
 for i in range(n+1):
     sum=sum+1
     print(sum)
+
 
 a= int(input("enter the first: "))
 b= int(input("enter the second: "))
@@ -73,6 +77,7 @@ if a>b:
     print(a,">",b)
 else:
         print(a,"<",b)
+
 
 age=28
 if age>18:
@@ -87,6 +92,7 @@ if n%2==0:
 else:
     print("odd")
 
+
 n = int(input("enter the number: "))
 if n > 1:
     for i in range(2, n):
@@ -98,6 +104,7 @@ if n > 1:
 else:
     print("not prime")
 
+
 a= input("enter first string: ")
 b= input("enter second string: ")
 if a==b:
@@ -107,11 +114,13 @@ elif a>=b:
 else:
     print("a<b")
 
+
 n1 = int(input("enter the number: "))
 n2 = int(input("enter the number: "))
 n3 = int(input("enter the number: "))
 m= max(n1,n2,n3)
 print(m)
+
 
 n = int(input("enter the number: "))
 total_sum= 0
@@ -129,6 +138,5 @@ for num in range(2, n + 1):
             break
     else:
         total_sum += num 
-
 print(total_sum)
 
